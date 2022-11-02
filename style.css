@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    padding: 1rem;
+}
+
+main{
+    background-color: #7fffd4;
+    flex-grow: 1;
+}
+
+footer{
+    padding: 1rem;
+}
+
+.board{
+    height: 800px;
+    width: 800px;
+    display: flex;
+}
+
+.board-number{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid #000;
+}

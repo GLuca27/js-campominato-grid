@@ -17,6 +17,7 @@ header{
 main{
     background-color: #7fffd4;
     flex-grow: 1;
+    display: flex;
 }
 
 footer{
@@ -24,9 +25,13 @@ footer{
 }
 
 .board{
-    height: 800px;
-    width: 800px;
+    height: 500px;
+    width: 500px;
+    background-color: brown;
     display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: auto;
 }
 
 .board-number{
